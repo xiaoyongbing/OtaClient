@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/com_color_white"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nordic"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="Nordic升级">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/com_color_bg">
+            </View>
+
+            <TextView
+                android:id="@+id/tv_realtk"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="Realtk升级">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/com_color_bg">
+            </View>
+
+            <TextView
+                android:id="@+id/tv_two_to_one"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="二合一升级">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/com_color_bg">
+            </View>
+
+            <TextView
+                android:id="@+id/tv_three_to_one"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="三合一升级">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/com_color_bg">
+            </View>
+
+
+            <TextView
+                android:id="@+id/tv_four_to_one"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="四合一升级">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/com_color_bg">
+            </View>
+
+            <TextView
+                android:id="@+id/tv_font_library"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="字库+新固件升级">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/com_color_bg">
+            </View>
+
+            <TextView
+                android:id="@+id/tv_b_font_library"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                style="@style/text_big_black"
+                android:text="B+字库+新固件升级">
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

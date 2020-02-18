@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/com_color_white">
+
+    <ImageButton
+        android:id="@+id/title_leftBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:padding="@dimen/com_margin_mind"
+        android:src="@drawable/ic_return"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/title_leftBtn"
+        android:layout_toLeftOf="@+id/title_rightBtn"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/com_color_black_text"
+        tools:text="Title"/>
+
+    <TextView
+        android:id="@+id/title_rightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/com_margin_mind"
+        android:textColor="@color/com_color_white"
+        android:textSize="@dimen/com_text_big"
+        android:visibility="invisible"
+        tools:text="Right"
+        tools:visibility="visible"/>
+</RelativeLayout>

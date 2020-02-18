@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">OtaClient</string>
+
+    <!-- 首页 -->
+    <string name="home_main">升级管理</string>
+    <string name="home_veneer">单板列表</string>
+
+    <!--升级管理-->
+    <string name="upload_choose_file">请选择升级文件</string>
+    <string name="upload_input_version">请输入固件版本</string>
+
+    <!--文件下发失败 -->
+    <string name="upload_file_fail">请输入固件版本</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+    <!--四合一升级 -->
+    <string name="upload_b_file_name">bootloader文件</string>
+    <string name="upload_b_file_version">bootloader文件版本</string>
+    <string name="upload_special_file_name">特殊固件</string>
+    <string name="upload_special_file_version">特殊固件版本</string>
+    <string name="upload_font_file_name">字库文件</string>
+    <string name="upload_font_file_version">字库文件版本</string>
+    <string name="upload_new_file_name">最新固件</string>
+    <string name="upload_new_file_version">最新固件版本</string>
+
+    <string name="confirm_config">确认配置</string>
+
+    <!--正在进行二合一升级 -->
+    <string name="upload_type_two_to_one">正在进行二合一升级</string>
+    <string name="upload_type_choose">请确认配置开始升级</string>
+    <string name="upload_type_nordic">正在Nordic升级</string>
+    <string name="upload_type_realtk">正在Realtk升级</string>
+    <string name="upload_type_three_to_one">正在三合一升级</string>
+    <string name="upload_type_four_to_one">正在四合一升级</string>
+    <string name="upload_type_B">正在字库+新固升级</string>
+    <string name="upload_type_B_FONT">正在B+字库+新固升级</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

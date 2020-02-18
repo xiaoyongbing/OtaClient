@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+
+    <TextView
+        android:id="@+id/tv_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        style="@style/text_normal_black"
+        android:text="@string/upload_special_file_name">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/iv_choose_special"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_file_add"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/tv_choose"
+        android:layout_below="@+id/tv_choose">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/tv_choose_file_bootloader"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:text=""
+        style="@style/text_big_black"
+        android:gravity="top"
+        android:singleLine="false"
+        android:layout_alignLeft="@+id/tv_choose"
+        android:layout_below="@+id/iv_choose_special">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/tv_file_version_special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        style="@style/text_normal_black"
+        android:text="@string/upload_special_file_version">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/et_version_special"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        style="@style/text_big_black"
+        android:inputType="number"
+        android:background="@drawable/shape_rectangle_line_gray_bg_white_10_corner"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_file_version_special"
+        android:layout_alignLeft="@+id/tv_file_version_special">
+
+    </EditText>
+
+
+
+
+
+</RelativeLayout>
+
+
